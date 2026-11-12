@@ -110,6 +110,8 @@ h3 {
     padding: 22px;
     box-shadow: 0 3px 10px #0a2f5c16;
     flex-basis: 100%;
+    flex-grow: 1;
+    flex-shrink: 1;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -132,8 +134,6 @@ h3 {
     text-decoration: none;
     padding: 10px 15px;
     border-radius: 7px;
-    flex-grow: 1;
-    flex-shrink: 1;
     margin-top: auto;
 }
 
